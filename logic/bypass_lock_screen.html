@@ -1,0 +1,18 @@
+<h1>phpcms logic of bypass lock_screen</h1>
+
+
+<p>After the administrator landed in the background,Click on the lock screen as shown below</p>
+<img src=click_lock_screen.png width="900px" height="300px">
+
+<p>By looking at the code, it was found that only the session value was changed.</p>
+<img src=session_value.png width="500px" height="250px">
+
+<p>After clicking on the lock screen, Enter any password</p>
+
+<img src=input_value.png width="500px" height="250px">
+<p>Intercept return packages through burpsuite</p>
+
+<img src=change.png width="500px" height="250px">
+
+<img src=dm.png width="500px" height="250px">
+<p>Unlock the lock screen when the return package value is changed to 1</p>
